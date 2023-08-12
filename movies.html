@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Movies</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="/assets/clickflicks icon.jpg">
+    <script
+      src="https://kit.fontawesome.com/c8e4d183c2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div class="nav__wrapper">
+      <nav>
+        <a href="index.html">
+          <img
+          src="./assets/clickflicks-high-resolution-logo-black-on-transparent-background.png"
+          alt=""
+          class="logo"
+          />
+        </a>
+        <ul class="nav__link--list">
+          <li class="nav__link">
+            <a
+              href="index.html"
+              class="nav__link--anchor link__hover-effect"
+              href=""
+              >Home</a
+            >
+          </li>
+          <li class="nav__link">
+            <a class="nav__link--anchor link__hover-effect" href=""
+              >Search Movies</a
+            >
+          </li>
+          <li class="nav__link">
+            <a
+              class="nav__link--anchor nav__link--anchor-primary"
+              href="mailto:zubayr_parker@outlook.com"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <section id="movies">
+      <div class="container">
+        <div class="row">
+          <div class="movies__header">
+
+            <div class="input__wrapper">
+              <input class="search-bar" type="text" placeholder="Search!" onchange="onSearchChange(event)"/>
+              
+              <img src="" alt="" class="fas fa-search click">
+              
+            </div>
+            <select name="" id="filter" class="click">
+              <option value="" disabled selected>Sort</option>
+              <option value="LOW_TO_HIGH" >Newest</option>
+              <option value="HIGH_TO_LOW" >Oldest</option>
+            </select>
+          </div>
+          <div class="movies">
+            
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
