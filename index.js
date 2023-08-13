@@ -38,6 +38,9 @@ function closeMenu() {
 }
 // main();
 
+function openMovies() {
+    window.location.href = `${window.location.origin}/movies.html`
+}
 
 /*to do:
 - add a loading state --> DONE
