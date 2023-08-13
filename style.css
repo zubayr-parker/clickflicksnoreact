@@ -340,3 +340,42 @@ select {
         display: block;
     }
 }
+
+@media (max-width:768px) {
+  .section__title {
+    font-size: 40px;
+  }
+
+  .header-img__wrapper {
+    width: 70%;
+  }
+
+  .movie {
+    width: calc(100% / 3 );
+  }
+
+  .movies__header {
+    flex-direction: column;
+  }
+
+  .input__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .search-bar {
+    margin-bottom: 8px;
+  }
+
+  
+}
+
+
+@media (max-width:550px) {
+  .movie {
+    width: 50%}
+
+  .section__subtitle {
+    display: none;
+  }
+}
