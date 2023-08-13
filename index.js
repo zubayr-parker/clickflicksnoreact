@@ -26,7 +26,7 @@ const search = localStorage.getItem("search")
 function onSearchChange(event) {
     const search = event.target.value
     localStorage.setItem("search", search)
-   window.location.href = `${window.location.origin}/movies.html`
+    openMovies()
 }
 
 
@@ -45,7 +45,7 @@ function openMovies() {
 /*to do:
 - add a loading state --> DONE
 - split js files into 2 --> DONE
-- add a burger menu
-- make it responsive 
+- add a burger menu --> DONE
+- make it responsive --> DONE
 - add filters (new to old, old to new) --> DONE
 */
