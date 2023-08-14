@@ -39,7 +39,7 @@ function closeMenu() {
 // main();
 
 function openMovies() {
-    window.location.href = `${window.location.origin}/movies.html`
+    window.location.href = "/movies.html"
 }
 
 /*to do:
