@@ -7,26 +7,31 @@
     <title>Home</title>
     <script src="./index.js" defer></script>
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" type="image/x-icon" href="/assets/clickflicks icon.jpg">
-    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="/assets/clickflicks icon.jpg" />
+    <script
+      src="https://kit.fontawesome.com/c8e4d183c2.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <section id="landing">
       <div class="nav__wrapper">
-          <nav>
-            <a href="index.html">
-              <img
+        <nav>
+          <a href="index.html">
+            <img
               src="./assets/clickflicks-high-resolution-logo-black-on-transparent-background.png"
               alt=""
               class="logo"
-              />
-            </a>
+            />
+          </a>
           <ul class="nav__link--list">
             <li class="nav__link">
               <a class="nav__link--anchor link__hover-effect" href="">Home</a>
             </li>
             <li class="nav__link">
-              <a class="nav__link--anchor link__hover-effect click" href="movies.html"
+              <a
+                class="nav__link--anchor link__hover-effect click"
+                href="movies.html"
                 >Search Movies</a
               >
             </li>
@@ -43,22 +48,31 @@
           </button>
 
           <div class="menu__backdrop">
-            <button class="btn__menu btn__menu--close click" onclick="closeMenu()">
+            <button
+              class="btn__menu btn__menu--close click"
+              onclick="closeMenu()"
+            >
               <i class="fas fa-times click"></i>
-            
             </button>
             <ul class="menu__links">
               <li class="menu__list">
                 <a href="#" class="menu__link" onclick="closeMenu()">Home</a>
               </li>
               <li class="menu__list">
-                <a href="movies.html" class="menu__link" onclick="closeMenu()">Search Movies</a>
+                <a href="movies.html" class="menu__link" onclick="closeMenu()"
+                  >Search Movies</a
+                >
               </li>
               <li class="menu__list">
-                <a class="menu__link" href="mailto:zubayr_parker@outlook.com" onclick="closeMenu()">Contact</a>
+                <a
+                  class="menu__link"
+                  href="mailto:zubayr_parker@outlook.com"
+                  onclick="closeMenu()"
+                  >Contact</a
+                >
               </li>
             </ul>
-          </div>  
+          </div>
         </nav>
       </div>
 
@@ -71,13 +85,20 @@
                 streaming site
               </h1>
               <div class="input__wrapper">
-                <input class="search-bar" type="text" placeholder="Search!" onchange="onSearchChange(event)"/>
-                
-                  <img src="" alt="" class="fas fa-search click">
-                
+                <div class="search-bar__wrapper">
+                  <input
+                    class="search-bar"
+                    type="text"
+                    placeholder="Search!"
+                    onchange="onSearchChange(event)"
+                  />
+                </div>
+
+                <img src="" alt="" class="fas fa-search click" />
               </div>
               <h2 class="section__subtitle">
-                View your favourite movies <span class="orange">on demand</span> from
+                View your favourite movies
+                <span class="orange">on demand</span> from
               </h2>
               <figure class="header-img__wrapper">
                 <img
